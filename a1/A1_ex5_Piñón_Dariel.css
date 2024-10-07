@@ -1,0 +1,41 @@
+body{
+    background: #fff url('images/gradbg.jpg') top left repeat-x;
+    color: #000;
+    margin: 0;
+    padding:0;
+    border: 0;
+    font-family: Verdana, Arial, sans-serif; font-size: 1em;
+  }
+#fondo {
+    height: 278px;
+    width: 362px;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+  }
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    background: url(./images/headbg.png) top left repeat;
+    padding: 10px 0;
+    color: red;
+}
+p {
+    border: 0.5cm;
+}
+#noticia {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    padding: 0.5cm;   
+}
+#subnoticia {
+    text-align: left;
+    color: grey;  
+    font-style: italic; 
+}
+

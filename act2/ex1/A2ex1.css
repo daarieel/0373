@@ -1,0 +1,48 @@
+/* Estils generals per al cos del document */
+body {
+    font-family: "serif";
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+/* Estils per als paràgrafs generals */
+p {
+    line-height: 125%;
+}
+
+/* Estils per als títols */
+h1 {
+    color: blue;
+    font-family: "Arial";
+}
+
+h2, h3 {
+    color: #cc22ff;
+    font-family: "Arial";
+}
+
+/* Estils especials per al paràgraf amb ID especial */
+#especial::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+/* Estils per al codi Python */
+.python-code {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Classes personalitzades */
+.paragraf-1 {
+    color: #333333;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.paragraf-2 {
+    color: #555555;
+    text-align: justify;
+    font-weight: bold;
+}

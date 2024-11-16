@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #6a9b2e;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+nav {
+    margin-left: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.fondo {
+    background-image: url('../img/fondoindex.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 80vh; 
+    padding-left: 40px; 
+    color: #6a9b2e; 
+}
+
+.contenido {
+    max-width: 500px; 
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #6a9b2e;
+    color: black;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p span {
+    font-weight: bold;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+footer .license img {
+    margin-left: 10px;
+    width: 88px;
+    height: 31px;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px; 
+    overflow: hidden; 
+    border: 1px solid transparent;
+}
+
+th, td {
+    border: 1px lightgray;
+    padding: 10px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+th {
+    background-color: #4C9DF0;
+    color: white;
+}
+
+.even {
+    background: #D3D3D3
+    }
+
+.footer {
+    background-color: #4C9DF0;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Estilo general del formulario */
+form {
+    max-width: 600px; /* Limita el ancho máximo del formulario a 600px */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    background-color: #fff; /* Establece un fondo blanco para el formulario */
+    border: 1px solid #ccc; /* Aplica un borde gris claro al formulario */
+    border-radius: 10px; /* Redondea las esquinas del formulario */
+    padding: 20px; /* Añade espacio interior (padding) al formulario */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave alrededor del formulario */
+}
+
+/* Estilo de los fieldsets (grupos de campos) */
+fieldset {
+    border: 1px solid #007BFF; /* Define un borde azul para los grupos de campos */
+    border-radius: 8px; /* Redondea las esquinas del borde */
+    margin-bottom: 20px; /* Añade espacio entre los fieldsets */
+    padding: 15px; /* Añade espacio interior dentro del fieldset */
+}
+
+/* Estilo de las leyendas de los fieldsets */
+legend {
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    color: #007BFF; /* Aplica color azul al texto de la leyenda */
+    padding: 0 5px; /* Añade espacio lateral alrededor de la leyenda */
+}
+
+/* Estilo general de las etiquetas de los campos */
+label {
+    display: block; /* Asegura que la etiqueta esté en su propia línea */
+    margin-top: 10px; /* Añade espacio superior antes de la etiqueta */
+    font-weight: bold; /* Hace que el texto de la etiqueta sea más grueso */
+}
+
+/* Estilo de los inputs, selects, textareas y botones */
+input, select, textarea, button {
+    width: 100%; /* Hace que los elementos ocupen todo el ancho disponible */
+    padding: 10px; /* Añade espacio interior dentro de los campos */
+    margin-top: 5px; /* Añade espacio superior entre la etiqueta y el campo */
+    margin-bottom: 10px; /* Añade espacio inferior entre los campos */
+    border: 1px solid #ccc; /* Establece un borde gris claro para los campos */
+    border-radius: 5px; /* Redondea ligeramente las esquinas de los campos */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el tamaño total */
+}
+
+/* Estilo para evitar que los textarea sean redimensionables */
+textarea {
+    resize: none; /* Desactiva la capacidad de cambiar el tamaño del campo */
+}
+
+/* Estilo específico para el botón */
+button {
+    background-color: #007BFF; /* Establece un fondo azul para el botón */
+    color: white; /* Cambia el color del texto del botón a blanco */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    font-size: 16px; /* Define el tamaño del texto del botón */
+    padding: 10px 15px; /* Añade espacio interno dentro del botón */
+    width: auto; /* Deja que el ancho del botón se ajuste al contenido */
+}
+
+/* Efecto hover (al pasar el ratón) para el botón */
+button:hover {
+    background-color: #0056b3; /* Oscurece el fondo azul al pasar el ratón */
+}
+
+/* Estilo específico para los checkboxes */
+input[type="checkbox"] {
+    width: auto; /* Deja que el tamaño del checkbox sea predeterminado */
+    margin-right: 10px; /* Añade espacio a la derecha del checkbox */
+}

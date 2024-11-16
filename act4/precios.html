@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/RRLogo.png" alt="Logo Rural Rooms">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./precios.html">Precios</a></li>
+                <li><a href="./reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo de Habitación</th>
+                    <th>Personas</th>
+                    <th>Características</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="even">
+                    <td>Individual</td>
+                    <td><img src="./img/individual.png" alt="1"></td>
+                    <td>Baño compartido, Microondas</td>
+                    <td>70 €</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Doble (1 o 2 camas)</td>
+                    <td><img src="./img/doble.png" alt="2"></td>
+                    <td rowspan="2">Baño privado, Microondas</td>
+                    <td>120 €</td>
+                </tr>
+                <tr>
+                    <td><img src="./img/individual.png" alt="1"></td>
+                    <td>90 €</td>
+                </tr>
+                <tr class="even">
+                    <td>Doble Superior</td>
+                    <td><img src="./img/doble.png" alt="2"></td>
+                    <td>Baño privado, Zona de cocina, cama doble</td>
+                    <td>140 €</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Triple (1, 2 o 3 camas)</td>
+                    <td><img src="./img/triple.png" alt="3"></td>
+                    <td rowspan="3">Baño privado, Zona de cocina</td>
+                    <td>150 €</td>
+                </tr>
+                <tr>
+                    <td><img src="./img/doble.png" alt="2"></td>
+                    <td>130 €</td>
+                </tr>
+                <tr>
+                    <td><img src="./img/individual.png" alt="1"></td>
+                    <td>100 €</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="footer">
+                    <td colspan="4">Características comunes: Wifi / TV de pantalla plana / Aire acondicionado</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    
+    <footer>
+        <p>Actividad realizada por <span>Dariel Piñón Palacios</span></p>
+        <div class="license">
+        <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash<img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" alt="CC BY-SA License"></a></p>
+        </div>
+    </footer>
+</body>
+</html>

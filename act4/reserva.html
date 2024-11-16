@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rural Rooms</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/RRLogo.png" alt="Logo Rural Rooms">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./precios.html">Precios</a></li>
+                <li><a href="./reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="POST">
+            <!-- Dades personals -->
+            <fieldset>
+                <legend>Dades personals</legend>
+                
+                <label for="tractament">Tractament:</label>
+                <select id="tractament" name="tractament">
+                    <option value="sr">Sr</option>
+                    <option value="sra">Sra</option>
+                    <option value="srta">Srta</option>
+                </select>
+    
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+    
+                <label for="cognoms">Cognoms:</label>
+                <input type="text" id="cognoms" name="cognoms" required>
+    
+                <label for="telefon">Telèfon:</label>
+                <input type="tel" id="telefon" name="telefon" required>
+    
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="confirmar-email">Confirma el correu electrònic:</label>
+                <input type="email" id="confirmar-email" name="confirmar-email" required>
+    
+                <label for="contrasenya">Contrasenya:</label>
+                <input type="password" id="contrasenya" name="contrasenya" required>
+            </fieldset>
+    
+            <!-- Dades de la reserva -->
+            <fieldset>
+                <legend>Dades de la reserva</legend>
+                
+                <label for="habitacio">Tipus d'habitació:</label>
+                <select id="habitacio" name="habitacio">
+                    <option value="individual">Habitació individual</option>
+                    <option value="doble">Habitació doble</option>
+                    <option value="doble-superior">Habitació doble superior</option>
+                    <option value="triple">Habitació triple</option>
+                </select>
+    
+                <label for="persones">Número de persones:</label>
+                <input type="number" id="persones" name="persones" min="1" required>
+    
+                <label for="data-entrada">Data d'entrada:</label>
+                <input type="date" id="data-entrada" name="data-entrada" required>
+    
+                <label for="data-sortida">Data de sortida:</label>
+                <input type="date" id="data-sortida" name="data-sortida" required>
+    
+                <label for="peticions">Peticions especials:</label>
+                <textarea id="peticions" name="peticions" placeholder="Les peticions no es poden garantir, però farem tot el possible per satisfer-les."></textarea>
+            </fieldset>
+    
+            <!-- Dades addicionals -->
+            <fieldset>
+                <legend>Dades addicionals</legend>
+                
+                <label>
+                    <input type="checkbox" id="parking" name="parking">
+                    Reserva de plaça de parking cobert (8€/nit) - L'hotel disposa de parking exterior gratuït.
+                </label>
+    
+                <label for="hora-arribada">Hora prevista d'arribada:</label>
+                <input type="time" id="hora-arribada" name="hora-arribada">
+    
+                <label>
+                    <input type="checkbox" id="esmorzar" name="esmorzar">
+                    Afegeix esmorzar per als dies d'estada (5€/dia).
+                </label>
+            </fieldset>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Actividad realizada por <span>Dariel Piñón Palacios</span></p>
+        <div class="license">
+        <p>Fotografías de la portada <a href="https://unsplash.com" target="_blank">Unsplash<img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" alt="CC BY-SA License"></a></p>
+        </div>
+    </footer>
+</body>
+</html>

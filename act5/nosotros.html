@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>PicsaTracker</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo PicsaTracker">
+        </div>
+        <div id="cronometro">
+            <h1 id="tiempo">00:00:00</h1>
+        </div>
+        <script src="script.js"></script>
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./picsas.html">PICSAS</a></li>
+                <li><a href="./nosotros.html">SOBRE NOSOTROS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="nosotros">
+        <section>
+            <div>
+                <h2 onmouseover="resaltarTexto(this)" onmouseout="restaurarTexto(this)">Sobre Nosotros</h2>
+                <p>
+                    Bienvenidos a <strong>PicsaTracker</strong>, donde hacemos lo que podemos con lo que tenemos. Nuestro local puede que no sea el más limpio, y probablemente el horno se apague cada dos horas, pero, ¿quién necesita perfección cuando hay hambre?
+                </p>
+                <p>
+                    Aquí no encontrarás ingredientes frescos, pero sí muchas ganas de terminar pronto el turno. Las pizzas, bueno, a veces se nos queman, a veces están medio crudas... todo depende de cómo esté el día. Si buscas consistencia, mejor ve al supermercado.
+                </p>
+                <p>
+                    Y no hablemos de nuestro servicio: lentos, despistados y probablemente discutiendo en la cocina. Pero oye, si lo que buscas es una experiencia de lo más auténtica (auténticamente caótica), has llegado al lugar correcto. ¡Suerte con tu pedido!
+                </p>
+                <p id="texto-oculto" style="display: none;">
+                    ¿De verdad has pasado el ratón por aquí esperando algo útil? Mejor pídenos una pizza y no preguntes cómo la hacemos.
+                </p>
+                <img src="./img/nosotros.webp" alt="familia" width="500px" height="500px">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pizzas Web. Todos los derechos reservados.</p>
+        <p>📞 Teléfono: +34 123 456 789 | 📧 Correo: contacto@pizzasweb.com</p>
+        <p>Síguenos en:
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>

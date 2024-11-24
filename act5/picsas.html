@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>PicsaTracker</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo PicsaTracker">
+        </div>
+        <div id="cronometro">
+            <h1 id="tiempo">00:00:00</h1>
+        </div>
+        <script src="script.js"></script>
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./picsas.html">PICSAS</a></li>
+                <li><a href="./nosotros.html">SOBRE NOSOTROS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="galeria">
+        <h1>Galería de Imágenes</h1>
+        <div class="imagenes">
+            <img src="./img/pizza.webp" alt="Imagen 1" onclick="mostrarImagen(this)">
+            <img src="./img/pizza2.webp" alt="Imagen 2" onclick="mostrarImagen(this)">
+            <img src="./img/pizza3.webp" alt="Imagen 3" onclick="mostrarImagen(this)">
+            <img src="./img/pizza4.png" alt="Imagen 4" onclick="mostrarImagen(this)">
+            <img src="./img/pizza5.png" alt="Imagen 5" onclick="mostrarImagen(this)">
+            <img src="./img/pizza6.webp" alt="Imagen 6" onclick="mostrarImagen(this)">
+        </div>
+    </main>
+
+    <!-- Contenedor Modal -->
+    <div id="modal" onclick="cerrarModal()">
+        <span id="cerrar">X</span>
+        <img id="imagenAmpliada" src="" alt="Imagen Ampliada">
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Pizzas Web. Todos los derechos reservados.</p>
+        <p>📞 Teléfono: +34 123 456 789 | 📧 Correo: contacto@pizzasweb.com</p>
+        <p>Síguenos en:
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
